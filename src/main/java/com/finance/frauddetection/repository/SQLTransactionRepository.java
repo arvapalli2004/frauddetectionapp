@@ -49,7 +49,7 @@ public class SQLTransactionRepository implements ITransactionRepository{
             ps.setInt(1,transaction.getCustomerId());
             ps.setBigDecimal(2,transaction.getAmount());
             ps.setString(3,transaction.getTxnCountry());
-            ps.setTimestamp(4, Timestamp.valueOf(transaction.getTxtTimeStamp()));
+            ps.setTimestamp(4, Timestamp.valueOf(transaction.getTxnTimeStamp()));
             ps.setString(5,transaction.getStatus());
             return ps;
 
