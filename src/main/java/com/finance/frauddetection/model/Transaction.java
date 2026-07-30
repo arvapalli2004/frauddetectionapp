@@ -68,11 +68,11 @@ public class Transaction {
         this.amount = amount;
     }
 
-    public LocalDateTime getTxtTimeStamp() {
+    public LocalDateTime getTxnTimeStamp() {
         return txnTimeStamp;
     }
 
-    public void setTxtTimeStamp(LocalDateTime txtTimeStamp) {
+    public void setTxnTimeStamp(LocalDateTime txnTimeStamp) {
         this.txnTimeStamp = txnTimeStamp;
     }
 
