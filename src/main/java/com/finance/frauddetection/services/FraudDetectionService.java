@@ -47,7 +47,7 @@ public class FraudDetectionService {
         }
 
         //rule 2-odd hours
-        int hour=transaction.getTxtTimeStamp().getHour();
+        int hour=transaction.getTxnTimeStamp().getHour();
         if(hour>=0&&hour<5){
             riskScore+=20;
         }
